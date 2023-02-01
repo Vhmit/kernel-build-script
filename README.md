@@ -1,11 +1,4 @@
-# Electimon's Kernel Build Script
-## Configuration
-Copy config.example to config like so,
-
-```cp config.example config```
-
-Edit config to suit your device.
-
+# Kernel Build Script
 ## Building
 Clone this repo to ```$KERNEL_DIR/build```.
 
