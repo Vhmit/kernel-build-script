@@ -10,8 +10,7 @@ function loadVariables {
 # Variables
 loadVariables \
 ARCH=arm64 \
-CLANG_TRIPLE=aarch64-linux-gnu- \
-CROSS_COMPILE=aarch64-linux-android- \
+CROSS_COMPILE=aarch64-linux-gnu- \
 DEFCONFIG=X00P_defconfig \
 MAKEFLAGS="O=out -j$(nproc --all) LLVM=1" \
-PATH="$PWD/build/build-tools/clang-r383902/bin:$PWD/build/build-tools/aarch64-linux-android-4.9/bin:$PWD/build/build-tools:$PATH"
+PATH="$PWD/build/build-tools/proton-clang/bin:$PATH"
